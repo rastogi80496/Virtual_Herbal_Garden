@@ -1,2 +1,3 @@
 # Herbal-Garden
-Herbal Garden
+### FLOW CHART
+![flowchart](resources/flowchart.png)
