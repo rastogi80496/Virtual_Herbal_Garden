@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Southeast Asia, West Africa",
             type: "Root",
             image: "../images/ginger.jpg",
-            moreImages: "https://example.com/more-images/ginger",
-            watchVideo: "https://example.com/videos/ginger",
+            moreImages: "https://www.istockphoto.com/photos/ginger",
+            watchVideo: "https://youtu.be/OlLwgjL5h3k?si=3gskhRgJD-QjR3MR",
             additionalInfo: "https://example.com/info/ginger"
         },
         1: {
@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Middle East and Mediterranean, Indian Subcontinent",
             type: "Seed",
             image: "../images/cumin.jpg",
-            moreImages: "https://example.com/more-images/peppermint",
-            watchVideo: "https://example.com/videos/peppermint",
+            moreImages: "https://www.istockphoto.com/photos/ginger",
+            watchVideo: "https://youtu.be/eVsMukecYqk?si=YztFJyDjhEfrHCeJ",
             additionalInfo: "https://example.com/info/peppermint"
         },
         2: {
@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Mediterranean Region,Indian Subcontinent",
             type: "Seed",
             image: "../images/fennel.jpg",
-            moreImages: "https://example.com/more-images/ginger",
-            watchVideo: "https://example.com/videos/ginger",
+            moreImages: "https://www.istockphoto.com/photos/fennel",
+            watchVideo: "https://youtu.be/WMWFckLd4JI?si=efkkUVb_fDT2vlJh",
             additionalInfo: "https://example.com/info/ginger"
         },
         3: {
@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "India, Southeast Asia",
             type: "Root",
             image: "../images/turmeric.jpg",
-            moreImages: "https://example.com/more-images/ginger",
-            watchVideo: "https://example.com/videos/ginger",
+            moreImages: "https://www.istockphoto.com/photos/turmeric",
+            watchVideo: "https://youtu.be/RCB3RCEDC6Q?si=_BE-ftGbFJT4mWvw",
             additionalInfo: "https://example.com/info/ginger"
         },
         4: {
@@ -59,8 +59,8 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "India, Sri Lanka",
             type: "Herbal formulation (combination of fruits).",
             image: "../images/triphala.jpg",
-            moreImages: "https://example.com/more-images/ginger",
-            watchVideo: "https://example.com/videos/ginger",
+            moreImages: "https://www.istockphoto.com/photos/triphala",
+            watchVideo: "https://youtu.be/9rke10KnZPE?si=zCaQ0cO31luXbEfq",
             additionalInfo: "https://example.com/info/ginger"
         },
         5: {
@@ -71,8 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Mediterranean Region,Indian Subcontinent",
             type: "Seed",
             image: "../images/coriander.jpg",
-            moreImages: "https://example.com/more-images/ginger",
-            watchVideo: "https://example.com/videos/ginger",
+            moreImages: "https://www.istockphoto.com/photos/coriander",
+            watchVideo: "https://youtu.be/wteD3Ll18KE?si=94cmaMrH2gi7zge_",
             additionalInfo: "https://example.com/info/ginger"
         },
         6: {
@@ -83,8 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "India, Sri Lanka",
             type: "Seed (from pods)",
             image: "../images/cardamom.jpg",
-            moreImages: "https://example.com/more-images/ginger",
-            watchVideo: "https://example.com/videos/ginger",
+            moreImages: "https://www.istockphoto.com/photos/cardamom",
+            watchVideo: "https://youtu.be/wteD3Ll18KE?si=94cmaMrH2gi7zge_",
             additionalInfo: "https://example.com/info/ginger"
         }
         // Add more plants here
