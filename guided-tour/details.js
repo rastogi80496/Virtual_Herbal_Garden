@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Ginger is widely used to alleviate digestive discomforts such as nausea, bloating, and indigestion. It is often consumed as a tea, added to meals, or taken as a supplement. In Ayurveda, ginger is considered a potent digestive aid that stimulates appetite and relieves gastrointestinal distress.",
             region: "Southeast Asia, West Africa",
             type: "Root",
-            image: "../images/Ginger.jpg",
+            image: "../images/ginger.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Cumin seeds are employed to improve digestion by enhancing the activity of digestive enzymes. They are particularly effective in alleviating symptoms of indigestion, gas, and bloating. Cumin can be used in cooking or taken as a tea or supplement to aid digestive health.",
             region: "Middle East and Mediterranean, Indian Subcontinent",
             type: "Seed",
-            image: "../images/Cumin.jpg",
+            image: "../images/cumin.jpg",
             moreImages: "https://example.com/more-images/peppermint",
             watchVideo: "https://example.com/videos/peppermint",
             additionalInfo: "https://example.com/info/peppermint"
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Fennel seeds are used to relieve digestive issues such as bloating, gas, and indigestion. They are often chewed directly or brewed into a tea to soothe the digestive tract and promote healthy digestion.",
             region: "Mediterranean Region,Indian Subcontinent",
             type: "Seed",
-            image: "../images/Fennel.jpg",
+            image: "../images/fennel.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Turmeric is utilized for its anti-inflammatory and digestive benefits. It helps in improving digestion, reducing symptoms of indigestion, and supporting liver function. Turmeric can be incorporated into meals, taken as a supplement, or used as a tea.",
             region: "India, Southeast Asia",
             type: "Root",
-            image: "../images/Turmeric.jpg",
+            image: "../images/turmeric.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Triphala is a well-regarded digestive tonic used to promote regular bowel movements, detoxify the body, and support overall digestive health. It helps in balancing the digestive system, reducing constipation, and enhancing nutrient absorption.",
             region: "India, Sri Lanka",
             type: "Herbal formulation (combination of fruits).",
-            image: "../images/Triphala.jpg",
+            image: "../images/triphala.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Coriander seeds are used to aid digestion, reduce bloating, and alleviate indigestion. They can be consumed as a spice in cooking, brewed into a tea, or taken as a supplement to improve digestive health.",
             region: "Mediterranean Region,Indian Subcontinent",
             type: "Seed",
-            image: "../images/Coriander.jpg",
+            image: "../images/coriander.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Cardamom is commonly used to enhance digestion, relieve bloating, and reduce nausea. It is often added to teas, desserts, and savory dishes for its digestive benefits. Cardamom can also be taken in supplement form or used as a spice in cooking.",
             region: "India, Sri Lanka",
             type: "Seed (from pods)",
-            image: "../images/Cardamom.jpg",
+            image: "../images/cardamom.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
