@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Moisturizes skin; soothes sunburn; promotes healing of cuts and wounds.",
             region: "Native to the Arabian Peninsula",
             type: "Succulent perennial",
-            image: "../images/Aloe Vera.jpg",
+            image: "../images/aloe vera.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Calms irritated skin; reduces redness; provides anti-inflammatory effects.",
             region: "Native to Europe and Western Asia, now grown worldwide.",
             type: "Annual herb",
-            image: "../images/Chamomile.jpg",
+            image: "../images/chamomile.jpg",
             moreImages: "https://example.com/more-images/peppermint",
             watchVideo: "https://example.com/videos/peppermint",
             additionalInfo: "https://example.com/info/peppermint"
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Treats acne; has antibacterial and antifungal properties; reduces inflammation.",
             region: "TNative to Australia.",
             type: "Evergreen tree or shrub.",
-            image: "../images/Tea Tree.jpg",
+            image: "../images/tea tree.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Soothes skin irritation; has antibacterial and anti-inflammatory effects; promotes relaxation.",
             region: "Native to the Mediterranean region, now cultivated globally.",
             type: "Evergreen shrub",
-            image: "../images/Lavender.jpg",
+            image: "../images/lavender.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Heals wounds; reduces inflammation; soothes skin irritations.",
             region: "Native to the Mediterranean region, now widely grown worldwide.",
             type: "Annual herb",
-            image: "../images/Calendula.jpg",
+            image: "../images/calendula.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Astringent; reduces acne and blemishes; soothes irritated skin.",
             region: "Native to North America.",
             type: "Deciduous shrub.",
-            image: "../images/Witch Hazel.jpg",
+            image: "../images/witch hazel.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: " Moisturizes and brightens skin; reduces signs of aging; rich in vitamin C and essential fatty acids.",
             region: "Native to Europe, North Africa, and western Asia.",
             type: "Deciduous shrub.",
-            image: "../images/Rosehip.jpg",
+            image: "../images/rosehip.jpg",
             moreImages: "https://example.com/more-images/ginger",
             watchVideo: "https://example.com/videos/ginger",
             additionalInfo: "https://example.com/info/ginger"
