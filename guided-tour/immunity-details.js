@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Native to North America, particularly the central and eastern United States.",
             type: "Herbaceous perennial.",
             image: "../images/Echinacea.jpg",
-            moreImages: "https://example.com/more-images/ginger",
-            watchVideo: "https://example.com/videos/ginger",
-            additionalInfo: "https://example.com/info/ginger"
+            moreImages: "https://www.istockphoto.com/photos/echinacea",
+            watchVideo: "https://youtu.be/LUU8dxYCxqo?si=hUM_cOZ6_vBD6IOc",
+            additionalInfo: "https://en.wikipedia.org/wiki/Echinacea"
         },
         1: {
             name: "Astragalus",
@@ -21,9 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Native to China, Mongolia, and Korea.",
             type: "Herbaceous perennial.",
             image: "../images/astragalus.jpg",
-            moreImages: "https://example.com/more-images/peppermint",
-            watchVideo: "https://example.com/videos/peppermint",
-            additionalInfo: "https://example.com/info/peppermint"
+            moreImages: "https://www.istockphoto.com/photos/astragalus",
+            watchVideo: "https://youtu.be/pQIp2IzgDzs?si=9hbdrLIyj5xsp00k",
+            additionalInfo: "https://en.wikipedia.org/wiki/Astragalus"
         },
         2: {
             name: "Turmeric",
@@ -33,9 +33,9 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Native to Southeast Asia, including India and Indonesia.",
             type: "Herbaceous perennial.",
             image: "../images/turmeric.jpg",
-            moreImages: "https://example.com/more-images/echinacea",
-            watchVideo: "https://example.com/videos/echinacea",
-            additionalInfo: "https://example.com/info/echinacea"
+            moreImages: "https://www.istockphoto.com/photos/turmeric",
+            watchVideo: "https://youtu.be/RCB3RCEDC6Q?si=_BE-ftGbFJT4mWvw",
+            additionalInfo: "https://en.wikipedia.org/wiki/Turmeric"
         },
         3: {
             name: "Ginger",
@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Native to Southeast Asia, particularly India and China.",
             type: "Herbaceous perennial.",
             image: "../images/ginger.jpg",
-            moreImages: "https://example.com/more-images/elderberry",
-            watchVideo: "https://example.com/videos/elderberry",
-            additionalInfo: "https://example.com/info/elderberry"
+            moreImages: "https://www.istockphoto.com/photos/ginger",
+            watchVideo: "https://youtu.be/OlLwgjL5h3k?si=3gskhRgJD-QjR3MR",
+            additionalInfo: "https://en.wikipedia.org/wiki/Ginger"
         },
         4: {
             name: "Garlic",
@@ -57,9 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Native to Central Asia and northeastern Iran, but now widely cultivated worldwide.",
             type: "Bulbous perennial.",
             image: "../images/garlic.jpg",
-            moreImages: "https://example.com/more-images/echinacea",
-            watchVideo: "https://example.com/videos/echinacea",
-            additionalInfo: "https://example.com/info/echinacea"
+            moreImages: "https://www.istockphoto.com/photos/garlic",
+            watchVideo: "https://youtu.be/H4OsppSwQTw?si=0-mYS7sZo9mUcqov",
+            additionalInfo: "https://en.wikipedia.org/wiki/Garlic"
         },
         5: {
             name: "Andrographis",
@@ -69,9 +69,9 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Native to South Asian countries, including India, Sri Lanka, and Thailand.",
             type: "Herbaceous annua.",
             image: "../images/Andrographis.jpg",
-            moreImages: "https://example.com/more-images/echinacea",
-            watchVideo: "https://example.com/videos/echinacea",
-            additionalInfo: "https://example.com/info/echinacea"
+            moreImages: "https://www.istockphoto.com/photos/andrographis-paniculata",
+            watchVideo: "https://youtu.be/GTTHjE9JReU?si=LfBBMKHkzUzrVFp-",
+            additionalInfo: "https://en.wikipedia.org/wiki/Andrographis"
         },
         6: {
             name: "Elderberry",
@@ -81,9 +81,9 @@ document.addEventListener('DOMContentLoaded', () => {
             region: "Native to Europe, but also found in North America.",
             type: "Deciduous shrub or small tree.",
             image: "../images/elderberry.jpg",
-            moreImages: "https://example.com/more-images/echinacea",
-            watchVideo: "https://example.com/videos/echinacea",
-            additionalInfo: "https://example.com/info/echinacea"
+            moreImages: "https://www.istockphoto.com/photos/elderberry",
+            watchVideo: "https://www.youtube.com/watch?v=xbLSy1nT1qs",
+            additionalInfo: "https://en.wikipedia.org/wiki/Sambucus"
         }
  
         // Add more plants here
