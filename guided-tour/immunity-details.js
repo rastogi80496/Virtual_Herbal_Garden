@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Used in traditional Chinese medicine to strengthen the immune system and improve overall vitality.",
             region: "Native to China, Mongolia, and Korea.",
             type: "Herbaceous perennial.",
-            image: "../images/Astragalus.jpg",
+            image: "../images/astragalus.jpg",
             moreImages: "https://example.com/more-images/peppermint",
             watchVideo: "https://example.com/videos/peppermint",
             additionalInfo: "https://example.com/info/peppermint"
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Contains curcumin, which has anti-inflammatory and antioxidant properties that can help support immune function.",
             region: "Native to Southeast Asia, including India and Indonesia.",
             type: "Herbaceous perennial.",
-            image: "../images/Turmeric.jpg",
+            image: "../images/turmeric.jpg",
             moreImages: "https://example.com/more-images/echinacea",
             watchVideo: "https://example.com/videos/echinacea",
             additionalInfo: "https://example.com/info/echinacea"
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Known for its anti-inflammatory and antioxidant properties, ginger helps support the immune system and alleviate digestive issues.",
             region: "Native to Southeast Asia, particularly India and China.",
             type: "Herbaceous perennial.",
-            image: "../images/Ginger.jpg",
+            image: "../images/ginger.jpg",
             moreImages: "https://example.com/more-images/elderberry",
             watchVideo: "https://example.com/videos/elderberry",
             additionalInfo: "https://example.com/info/elderberry"
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "Has antimicrobial and immune-boosting properties, often used to support cardiovascular health and combat infections.",
             region: "Native to Central Asia and northeastern Iran, but now widely cultivated worldwide.",
             type: "Bulbous perennial.",
-            image: "../images/Garlic.jpg",
+            image: "../images/garlic.jpg",
             moreImages: "https://example.com/more-images/echinacea",
             watchVideo: "https://example.com/videos/echinacea",
             additionalInfo: "https://example.com/info/echinacea"
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             uses: "The berries are used to boost the immune system, alleviate cold and flu symptoms, and reduce inflammation.",
             region: "Native to Europe, but also found in North America.",
             type: "Deciduous shrub or small tree.",
-            image: "../images/Elderberry.jpg",
+            image: "../images/elderberry.jpg",
             moreImages: "https://example.com/more-images/echinacea",
             watchVideo: "https://example.com/videos/echinacea",
             additionalInfo: "https://example.com/info/echinacea"
