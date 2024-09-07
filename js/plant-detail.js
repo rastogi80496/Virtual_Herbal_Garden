@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to the Arabian Peninsula',
             type: 'Succulent perennial',
             system: "Ayurveda",
-            image: "images/aloe Vera.jpg",
+            image: "images/aloe vera.jpg",
             tags: ["Moisturiser", "SoothingSkin"]
         },
     
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to Australia',
             type: 'Evergreen tree or shrub',
             system: "Ayurveda",
-            image: "images/tea Tree.jpg",
+            image: "images/tea tree.jpg",
             tags: ["Antibacterial", "AcneTreatment"]
         }
     
