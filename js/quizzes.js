@@ -11,16 +11,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Define correct answers (you can update these according to your quiz questions)
         const correctAnswers = {
-            question1: 'B',
-            question2: 'A',
-            question3: 'C',
-            question4: 'B',
-            question5: 'A',
-            question6: 'C',
-            question7: 'B',
-            question8: 'A',
-            question9: 'C',
-            question10: 'C'
+            question1: 'Panchakarma',
+            question2: 'Qi',
+            question3: 'Pitta',
+            question4: 'Holistic well-being',
+            question5: 'Ginger',
+            question6: 'Humors',
+            question7: 'Cupping',
+            question8: '"Like cures like"',
+            question9: 'Natural healing methods',
+            question10: 'Oil massage for rejuvenation'
 
         };
 
