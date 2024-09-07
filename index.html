@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Herbal Garden</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Virtual Herbal Garden Logo">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#garden">Virtual Garden</a></li>
+                <li><a href="learning.html">Learning</a></li> <!-- New Learning Link -->
+                <li><a href="#about">About AYUSH</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="#admin">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to the Virtual Herbal Garden</h1>
+            <p>Explore the world of medicinal plants with our interactive virtual garden.</p>
+            <a href="#garden" class="cta-button">Explore Garden</a>
+        </div>
+    </section>
+
+    <main>
+        <section id="garden" class="section">
+            <h2>Virtual Garden</h2>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search by name...">
+                <select id="use-filter">
+                    <option value="">Filter by Use</option>
+                    <option value="Medicinal">Medicinal</option>
+                    <option value="Aromatic">Aromatic</option>
+                    <!-- Add more uses as options -->
+                </select>
+                
+                <select id="region-filter">
+                    <option value="">Filter by Region</option>
+                    <option value="Tropical">Tropical</option>
+                    <option value="Temperate">Temperate</option>
+                    <!-- Add more regions as options -->
+                </select>
+                
+                <select id="type-filter">
+                    <option value="">Filter by Type</option>
+                    <option value="Herb">Herb</option>
+                    <option value="Shrub">Shrub</option>
+                    <!-- Add more types as options -->
+                </select>
+                
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div class="slider-container">
+                <div class="plant-slider">
+                    <div class="plant-grid">
+                        <!-- Plant cards -->
+                        <div class="plant-card">
+                            <img src="images/Echinacea.jpg" alt="Echinacea" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Echinacea</h3>
+                                <p class="plant-description">A North American herb with pink-purple flowers.</p>
+                                <a href="plant-detail.html?id=1" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Elderberry.jpg" alt="Elderberry" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Elderberry</h3>
+                                <p class="plant-description">A deciduous shrub with dark purple berries.</p>
+                                <a href="plant-detail.html?id=2" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Astragalus.jpg" alt="Astragalus" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Astragalus</h3>
+                                <p class="plant-description">A leguminous herb with a long history in Chinese medicine.</p>
+                                <a href="plant-detail.html?id=3" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Turmeric.jpg" alt="Turmeric" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Turmeric</h3>
+                                <p class="plant-description">A tropical rhizome with bright yellow flesh.</p>
+                                <a href="plant-detail.html?id=4" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Ginger.jpg" alt="Ginger" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Ginger</h3>
+                                <p class="plant-description">A spicy, aromatic rhizome used for digestive and anti-inflammatory benefits.</p>
+                                <a href="plant-detail.html?id=5" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Garlic.jpg" alt="Garlic" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Garlic</h3>
+                                <p class="plant-description">A bulbous plant known for its strong flavor.</p>
+                                <a href="plant-detail.html?id=6" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Andrographis.jpg" alt="Andrographis" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Andrographis</h3>
+                                <p class="plant-description">An herb with green leaves and white flowers.</p>
+                                <a href="plant-detail.html?id=7" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Aloe Vera.jpg" alt="Aloe Vera" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Aloe Vera</h3>
+                                <p class="plant-description">fleshy leaves that contain a gel with hydrating and healing properties.</p>
+                                <a href="plant-detail.html?id=8" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Chamomile.jpg" alt="Chamomile" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Chamomile</h3>
+                                <p class="plant-description">Features small daisy-like flowers with soothing properties.</p>
+                                <a href="plant-detail.html?id=9" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <div class="plant-card">
+                            <img src="images/Tea Tree.jpg" alt="Tea Tree" class="plant-image">
+                            <div class="plant-info">
+                                <h3 class="plant-name">Tea Tree</h3>
+                                <p class="plant-description">Produces essential oil with powerful antimicrobial properties.</p>
+                                <a href="plant-detail.html?id=10" class="view-more">View Details</a>
+                            </div>
+                        </div>
+                        <!-- Additional plant cards here -->
+                    </div>
+                </div>
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </section>
+
+
+<!-- Guided Virtual Tours Section -->
+<section id="guided-tours">
+    <h2>Guided Virtual Tours</h2>
+    <div class="tour-container">
+        <div class="tour-card">
+            <img src="images/digestive-health-image.jpg" alt="Plants for Digestive Health" class="tour-image">
+            <div class="tour-content">
+                <h3><a href="guided-tour\digestive-health.html">Plants for Digestive Health</a></h3>
+                <p>Explore the herbs and plants that support digestive health.</p>
+            </div>
+        </div>
+        <div class="tour-card">
+            <img src="images/immunity-image.jpeg" alt="Plants for Immunity" class="tour-image">
+            <div class="tour-content">
+                <h3><a href="guided-tour/immunity.html">Plants for Immunity</a></h3>
+                <p>Discover the plants that boost and strengthen your immune system.</p>
+            </div>
+        </div>
+        <div class="tour-card">
+            <img src="images/skin-care-image.jpg" alt="Plants for Skin Care" class="tour-image">
+            <div class="tour-content">
+                <h3><a href="guided-tour/skin-care.html">Plants for Skin Care</a></h3>
+                <p>Find out which plants can help maintain healthy and radiant skin.</p>
+            </div>
+        </div>
+        <!-- Add more tours as needed -->
+    </div>
+</section>
+
+       
+
+    <section id="about" class="section about-ayush">
+        <h2>About AYUSH</h2>
+        <a href="#ayurveda" class="view-more">Ayurveda</a>
+        <a href="#yoga" class="view-more">Yoga</a>
+        <a href="#naturopathy" class="view-more">Naturopathy</a>
+        <a href="#unani" class="view-more">Unani</a>
+        <a href="#siddha" class="view-more">Siddha</a>
+        <a href="#homeopathy" class="view-more">Homeopathy</a>
+
+            <!-- More links if necessary -->
+
+            <div class="detailed-info" id="ayurveda">
+                <h3>Ayurveda</h3>
+                <img src="images/ayurveda.jpg" alt="Ayurveda" class="system-image">
+                <p>Ayurveda is the time tested traditional system of medicine of India. </p>
+                <p>The term 'Ayurveda' meaning 'the knowledge of life' comprises of two Sanskrit words viz 'Ayu' meaning 'Life'</p> 
+                <p>and 'Veda' meaning 'Knowledge' or 'Science'.</p>
+                <a href="#about" class="back-link">Back to About AYUSH</a>
+            </div>
+            <div class="detailed-info" id="yoga">
+                <h3>Yoga</h3>
+                <img src="images/yoga.jpeg" alt="Yoga" class="system-image">
+                <p>The word 'Yoga' comes from the Sanskrit word 'yuj' which means 'to unite or integrate'.</p>
+                <p>Yoga is about the union of a person's own consciousness and the universal consciousness.</p>
+                <a href="#about" class="back-link">Back to About AYUSH</a>
+            </div>
+
+            <div class="detailed-info" id="naturopathy">
+                <h3>Naturopathy</h3>
+                <img src="images/naturopathy.jpg" alt="naturopathy" class="system-image">
+                <p>Naturopathy is a cost effective drugless, non-invasive therapy involving the use of natural materials</p>
+                <p>for health care and healthy living.</p>
+                <a href="#about" class="back-link">Back to About AYUSH</a>
+            </div>
+            <div class="detailed-info" id="unani">
+                <h3>unani</h3>
+                <img src="images/unani.jpg" alt="unani" class="system-image">
+                <p>Unani System of medicine is a comprehensive medical system, which provides preventive, promotive, curative and rehabilitative health care.</p>
+                <p>The system is holistic in nature and takes into account the whole personality of an individual rather than</p>
+                <p>taking a reductionist approach towards disease.</p>
+                <a href="#about" class="back-link">Back to About AYUSH</a>
+            </div>
+            <div class="detailed-info" id="siddha">
+                <h3>Siddha</h3>
+                <img src="images/siddha.jpg" alt="siddha" class="system-image">
+                <p>The Siddha system is an ancient system of medicine in India.</p>
+                <p>The word 'Siddha' is derived from the root word "Citti" meaning attainment</p>
+                <p>of perfection, eternal bliss and accomplishment.</p>
+                <a href="#about" class="back-link">Back to About AYUSH</a>
+            </div>
+            <div class="detailed-info" id="homeopathy">
+                <h3>homeopathy</h3>
+                <img src="images/homeopathy.jpg" alt="homeopathy" class="system-image">
+                <p>'Homoeopathy' was introduced as a scientific system of drug therapeutics by a German Physician,</p>
+                <p>Dr. Christian Frederick Samuel Hahnemann in 1805.</p>
+                <p>The principle of Homoeopathy is Similia Similibus Curentur i.e. let likes be treated by likes.</p>
+                <a href="#about" class="back-link">Back to About AYUSH</a>
+            </div>
+
+                        
+            <!-- Additional AYUSH sections here -->
+        </section>
+
+        <section id="admin" class="section">
+            <h2>Admin</h2>
+            <p>Admin section content...</p>
+        </section>
+    </main>
+
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/d40da81c-2bd3-4e1a-a4df-692e25d4109f/webchat/v2.1/config.js"></script>
+
+    <!-- Bot Icon -->
+    <!-- <div id="bot-icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Chatbot Icon">
+    </div> -->
+
+    <!-- Botpress Webchat Integration -->
+    <!-- <div id="botpress-webchat"></div> -->
+
+    <!-- Link to external JavaScript file -->
+    <!-- <script src="js/bot.js"></script> -->
+    
+    <!-- Botpress Webchat script
+    <script src="http://your-botpress-server.com/assets/modules/channel-web/webchat.js"></script>  -->
+
+
+    <footer>
+        <p>&copy; 2024 Virtual Herbal Garden. All rights reserved.</p>
+    </footer>
+    <script src="js/search-filter.js"></script>
+    <script src="js/slider.js"></script>
+
+
+</body>
+</html>
