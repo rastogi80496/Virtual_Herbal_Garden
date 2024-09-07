@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to Europe',
             type: 'Deciduous shrub',
             system: "Ayurveda",
-            image: "images/Elderberry.jpg",
+            image: "images/elderberry.jpg",
             tags: ["AntiOxidant", "Flu Relief"]
         },
     
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to China, Mongolia, and Korea',
             type: 'Herbaceous perennial',
             system: "Ayurveda",
-            image: "images/Astragalus.jpg",
+            image: "images/astragalus.jpg",
             tags: ["Immune Enhancer", "Vitality Boost"]
         },
     
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to Southeast Asia',
             type: 'Herbaceous perennial',
             system: "Ayurveda",
-            image: "images/Turmeric.jpg",
+            image: "images/turmeric.jpg",
             tags: ["Anti Inflammtory", "Digestive Health"]
         },
     
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to Southeast Asia',
             type: 'Herbaceous perennial',
             system: "Ayurveda",
-            image: "images/Ginger.jpg",
+            image: "images/ginger.jpg",
             tags: ["DigestiveAid", "Anti Inflammtory"]
         },
     
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to Central Asia and northeastern Iran',
             type: 'Bulbous perennial',
             system: "Ayurveda",
-            image: "images/Garlic.jpg",
+            image: "images/garlic.jpg",
             tags: ["CardiovascularHealth", "Antimicrobial"]
         },
     
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to the Arabian Peninsula',
             type: 'Succulent perennial',
             system: "Ayurveda",
-            image: "images/Aloe Vera.jpg",
+            image: "images/aloe Vera.jpg",
             tags: ["Moisturiser", "SoothingSkin"]
         },
     
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to Europe and Western Asia',
             type: 'Annual herb',
             system: "Ayurveda",
-            image: "images/Chamomile.jpg",
+            image: "images/chamomile.jpg",
             tags: ["Calming", "AntiInflammatory"]
         },
         
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
             region: 'Native to Australia',
             type: 'Evergreen tree or shrub',
             system: "Ayurveda",
-            image: "images/Tea Tree.jpg",
+            image: "images/tea Tree.jpg",
             tags: ["Antibacterial", "AcneTreatment"]
         }
     
