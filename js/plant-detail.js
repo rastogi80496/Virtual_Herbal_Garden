@@ -123,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         {
             id: '10',
-            name: "Tea Tree",
+            name: "Tea Plant",
             scientificName: "Melaleuca alternifolia",
             description: "Produces essential oil with powerful antimicrobial properties, commonly used in acne treatments and skin care products.",
             uses: ["Treats acne", "reduces inflammation"],
