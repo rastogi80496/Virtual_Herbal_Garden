@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             additionalInfo: "https://example.com/info/peppermint"
         },
         2: {
-            name: "Tea Tree",
+            name: "Tea Plant",
             scientificName: "Melaleuca alternifolia",
             description: "Produces essential oil with powerful antimicrobial properties, commonly used in acne treatments and skin care products.",
             uses: "Treats acne; has antibacterial and antifungal properties; reduces inflammation.",
