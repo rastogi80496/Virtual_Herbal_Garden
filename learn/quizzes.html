@@ -10,203 +10,226 @@
 <body>
     <header>
         <nav>
-            <!-- Navigation links -->
             <ul>
                 <li><a href="../index.html#home">Home</a></li>
                 <li><a href="../index.html#garden">Virtual Garden</a></li>
-                <li><a href="../learning.html">Learning</a></li> <!-- New Learning Link -->
+                <li><a href="../learning.html">Learning</a></li>
                 <li><a href="../index.html#about">About AYUSH</a></li>
-              
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="quizzes">
-            <h1>Take Our Quiz</h1>
-            <form id="quiz-form">
-                <fieldset>
-                    <legend>Which Ayurvedic practice is primarily used for detoxification and rejuvenation?
-
-                    </legend>
-
-                    <label>
-                        <input type="radio" name="Which Ayurvedic practice is primarily used for detoxification and rejuvenation?" value="Panchakarma">  Panchakarma
-                    </label>
-
-                    <label>
-                        <input type="radio" name="Which Ayurvedic practice is primarily used for detoxification and rejuvenation?" value="Shirodhara">Shirodhara
-                    </label>
+            <div class="quiz-container">
+                <h1 class="quiz-title">Take Our Quiz</h1>
+                <form id="quiz-form">
                     
-                    <label>
-                        <input type="radio" name="Which Ayurvedic practice is primarily used for detoxification and rejuvenation?" value="Abhyanga"> Abhyanga
-                    </label>
-                </fieldset>
-                
-                <fieldset>
-                    <legend>Which of the following is NOT one of the primary concepts of Ayurveda?
-                    </legend>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>Which Ayurvedic practice is primarily used for detoxification and rejuvenation?</legend>
+                            <label>
+                                <input type="radio" name="question1" value="Panchakarma"> Panchakarma
+                            </label>
+                            <label>
+                                <input type="radio" name="question1" value="Shirodhara"> Shirodhara
+                            </label>
+                            <label>
+                                <input type="radio" name="question1" value="Abhyanga"> Abhyanga
+                            </label>
+                        </fieldset>
+                    </div>
 
-                    <label>
-                        <input type="radio" name="Which of the following is NOT one of the primary concepts of Ayurveda?" value="Dosha"> Dosha
-                    </label>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>Which of the following is NOT one of the primary concepts of Ayurveda?</legend>
+                            <label>
+                                <input type="radio" name="question2" value="Dosha"> Dosha
+                            </label>
+                            <label>
+                                <input type="radio" name="question2" value="Dhatu"> Dhatu
+                            </label>
+                            <label>
+                                <input type="radio" name="question2" value="Qi"> Qi
+                            </label>
+                        </fieldset>
+                    </div>
 
-                    <label>
-                        <input type="radio" name="Which of the following is NOT one of the primary concepts of Ayurveda?" value="Dhatu"> Dhatu
-                    </label>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>In Ayurveda, which Dosha is primarily associated with the elements of fire and water?
+                            </legend>
+        
+                            <label>
+                                <input type="radio" name="question3" value="Vata"> Vata
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question3" value="Pitta"> Pitta
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question3" value="Prana">Prana        
+                            </label>
+                        </fieldset>
+                    </div>
 
-                    <label>
-                        <input type="radio" name="Which of the following is NOT one of the primary concepts of Ayurveda?" value=" Qi"> Qi
-                    </label>                    
-                </fieldset>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>What is the primary goal of Yoga in the AYUSH system?
+                            </legend>
+        
+                            <label>
+                                <input type="radio" name="question4" value="Physical fitness"> Physical fitness
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question4" value="Spiritual enlightenment"> Spiritual enlightenment
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question4" value="Holistic well-being"> Holistic well-being
+                            </label>
+                        </fieldset>
+                    </div>
 
-                <fieldset>
-                    <legend>In Ayurveda, which Dosha is primarily associated with the elements of fire and water?
-                    </legend>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>Which of the following herbs is commonly used in Ayurveda for improving digestion and reducing inflammation?
+                            </legend>
+        
+                            <label>
+                                <input type="radio" name="question5" value="Turmeric"> Turmeric
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question5" value="Echinacea"> Echinacea
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question5" value="Ginger"> Ginger
+                            </label>
+                        </fieldset>
+                    </div>
 
-                    <label>
-                        <input type="radio" name="In Ayurveda, which Dosha is primarily associated with the elements of fire and water?" value="Vata"> Vata
-                    </label>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>In Siddha medicine, which concept is similar to Ayurveda’s Doshas?
+                            </legend>
+        
+                            <label>
+                                <input type="radio" name="question6" value="Humors"> Humors
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question6" value="Tissues"> Tissues
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question6" value="Vital energies"> Vital energies
+                            </label>
+                        </fieldset>
+                    </div>
 
-                    <label>
-                        <input type="radio" name="In Ayurveda, which Dosha is primarily associated with the elements of fire and water?" value="Pitta"> Pitta
-                    </label>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>Which of the following is a key practice in Unani medicine for balancing the body's humors?
+                            </legend>
+        
+                            <label>
+                                <input type="radio" name="question7" value="Cupping"> Cupping
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question7" value="Acupuncture"> Acupuncture
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question7" value="Homeopathy"> Homeopathy
+                            </label>                    
+                        </fieldset>
+                    </div>
 
-                    <label>
-                        <input type="radio" name="In Ayurveda, which Dosha is primarily associated with the elements of fire and water?" value="Prana">Prana
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>In Homeopathy, which principle is used to treat illness?
+                            </legend>
+        
+                            <label>
+                                <input type="radio" name="question8" value="Like cures like"> "Like cures like"
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question8" value="Balance of humors"> Balance of humors
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question8" value="Herbal remedies"> Herbal remedies
+                            </label>
+                        </fieldset>
+                    </div>
 
-                    </label>
-                </fieldset>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>What is the main focus of Naturopathy as part of the AYUSH system?
+                            </legend>
+                            
+                            <label>
+                                <input type="radio" name="question9" value="Pharmaceutical medications"> Pharmaceutical medications
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question9" value="Surgical interventions"> Surgical interventions
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question9" value="Natural healing methods"> Natural healing methods
+                            </label>
+                        </fieldset>
+                    </div>
 
-                <fieldset>
-                    <legend>What is the primary goal of Yoga in the AYUSH system?
-                    </legend>
-
-                    <label>
-                        <input type="radio" name="What is the primary goal of Yoga in the AYUSH system?" value="Physical fitness"> Physical fitness
-                    </label>
-
-                    <label>
-                        <input type="radio" name="What is the primary goal of Yoga in the AYUSH system?" value="Spiritual enlightenment"> Spiritual enlightenment
-                    </label>
-
-                    <label>
-                        <input type="radio" name="What is the primary goal of Yoga in the AYUSH system?" value="Holistic well-being"> Holistic well-being
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Which of the following herbs is commonly used in Ayurveda for improving digestion and reducing inflammation?
-                    </legend>
-
-                    <label>
-                        <input type="radio" name="Which of the following herbs is commonly used in Ayurveda for improving digestion and reducing inflammation?" value="Turmeric"> Turmeric
-                    </label>
-
-                    <label>
-                        <input type="radio" name="Which of the following herbs is commonly used in Ayurveda for improving digestion and reducing inflammation?" value="Echinacea"> Echinacea
-                    </label>
-
-                    <label>
-                        <input type="radio" name="Which of the following herbs is commonly used in Ayurveda for improving digestion and reducing inflammation?" value="Ginger"> Ginger
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>In Siddha medicine, which concept is similar to Ayurveda’s Doshas?
-                    </legend>
-
-                    <label>
-                        <input type="radio" name="In Siddha medicine, which concept is similar to Ayurveda’s Doshas?" value="Humors"> Humors
-                    </label>
-
-                    <label>
-                        <input type="radio" name="In Siddha medicine, which concept is similar to Ayurveda’s Doshas?" value="Tissues"> Tissues
-                    </label>
-
-                    <label>
-                        <input type="radio" name="In Siddha medicine, which concept is similar to Ayurveda’s Doshas?" value="Vital energies"> Vital energies
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Which of the following is a key practice in Unani medicine for balancing the body's humors?
-                    </legend>
-
-                    <label>
-                        <input type="radio" name="Which of the following is a key practice in Unani medicine for balancing the body's humors?" value="Cupping"> Cupping
-                    </label>
-
-                    <label>
-                        <input type="radio" name="Which of the following is a key practice in Unani medicine for balancing the body's humors?" value="Acupuncture"> Acupuncture
-                    </label>
-
-                    <label>
-                        <input type="radio" name="Which of the following is a key practice in Unani medicine for balancing the body's humors?" value="Homeopathy"> Homeopathy
-                    </label>                    
-                </fieldset>
-
-                <fieldset>
-                    <legend>In Homeopathy, which principle is used to treat illness?
-                    </legend>
-
-                    <label>
-                        <input type="radio" name="In Homeopathy, which principle is used to treat illness?" value="Like cures like"> "Like cures like"
-                    </label>
-
-                    <label>
-                        <input type="radio" name="In Homeopathy, which principle is used to treat illness?" value="Balance of humors"> Balance of humors
-                    </label>
-
-                    <label>
-                        <input type="radio" name="In Homeopathy, which principle is used to treat illness?" value="Herbal remedies"> Herbal remedies
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>What is the main focus of Naturopathy as part of the AYUSH system?
-                    </legend>
+                    <div class="quiz-question">
+                        <fieldset>
+                            <legend>What is the primary aim of Abhyanga in Ayurveda?
+                            </legend>
+        
+                            <label>
+                                <input type="radio" name="question10" value="Detoxification">Detoxification
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question10" value="Meditation"> Meditation
+                            </label>
+        
+                            <label>
+                                <input type="radio" name="question10" value="Oil massage for rejuvenation"> Oil massage for rejuvenation
+                            </label>
+                        </fieldset>
+                    </div>
+    
                     
-                    <label>
-                        <input type="radio" name="What is the main focus of Naturopathy as part of the AYUSH system?" value="Pharmaceutical medications"> Pharmaceutical medications
-                    </label>
+    
+                    
+    
+                    
+    
+                    
+    
+                    
+    
+                    
+    
+                    
 
-                    <label>
-                        <input type="radio" name="What is the main focus of Naturopathy as part of the AYUSH system?" value="Surgical interventions"> Surgical interventions
-                    </label>
+                    <!-- Add remaining questions similarly -->
 
-                    <label>
-                        <input type="radio" name="What is the main focus of Naturopathy as part of the AYUSH system?" value="Natural healing methods"> Natural healing methods
-                    </label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>What is the primary aim of Abhyanga in Ayurveda?
-                    </legend>
-
-                    <label>
-                        <input type="radio" name="What is the primary aim of Abhyanga in Ayurveda?" value="Detoxification">Detoxification
-                    </label>
-
-                    <label>
-                        <input type="radio" name="What is the primary aim of Abhyanga in Ayurveda?" value="Meditation"> Meditation
-                    </label>
-
-                    <label>
-                        <input type="radio" name="What is the primary aim of Abhyanga in Ayurveda?" value="Oil massage for rejuvenation"> Oil massage for rejuvenation
-                    </label>
-                </fieldset>
-
-
-                
-                <button type="submit">Submit Quiz</button>
-
-            </form>
-
-            <div id="result-container"></div>
+                    <button type="submit" class="submit-button">Submit Quiz</button>
+                </form>
+                <div id="result-container" class="quiz-result"></div>
+            </div>
         </section>
     </main>
 
-    <script src="js/quizzes.js"></script>
+    <script src="../js/quizzes.js"></script>
 </body>
 </html>
