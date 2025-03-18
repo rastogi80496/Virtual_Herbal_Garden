@@ -161,6 +161,34 @@
         </section>
 
 
+        <!-- Search Plant by Image -->
+        <div class="image-search">
+            <!-- Plant Identification Section -->
+            <section id="plant-identification-section" class="card">
+                <h2>Identify a Plant</h2>
+                <p>Upload an image to identify the plant.</p>
+        
+                <div class="upload-container">
+                    <input type="file" id="plantImage" accept="image/*">
+                    <button id="identifyButton" class="cta-button">Identify Plant</button>
+                </div>
+        
+                <h3>Plant Name: <span id="plantName">-</span></h3>
+            </section>
+        
+            <!-- Search Image Section -->
+            <section id="search-image-section" class="card">
+                <h2>Search Image</h2>
+                <div id="imageResult" class="plant-image-container">
+                    <p>No image found yet.</p>
+                </div>
+            </section>
+        </div>
+        
+
+
+
+
         <!-- Guided Virtual Tours Section -->
         <section id="guided-tours">
             <h2>Guided Virtual Tours</h2>
@@ -282,6 +310,7 @@
     </footer>
     <script src="js/search-filter.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/searchImage.js"></script>
 
 
 </body>

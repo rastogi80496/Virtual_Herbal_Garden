@@ -6,9 +6,41 @@
     <title>Herb Encyclopedia - Virtual Herbal Garden</title>
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="learning.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f4;
+            color: #333;
+        }
+        .content {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #2c5f2d;
+        }
+        .plant-detail {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .plant-detail h3 {
+            color: #2c5f2d;
+        }
+        .plant-detail p {
+            margin: 8px 0;
+        }
+
+    </style>
 </head>
-<body>
-    <header>
+
+    <!-- <header>
         <nav>
             <div class="logo">
                 <img src="../images/logo.png" alt="Logo">
@@ -16,7 +48,7 @@
             <ul>
                 <li><a href="../index.html#home">Home</a></li>
                 <li><a href="../index.html#garden">Virtual Garden</a></li>
-                <li><a href="../learning.html">Learning</a></li> <!-- New Learning Link -->
+                <li><a href="../learning.html">Learning</a></li>
                 <li><a href="../index.html#about">About AYUSH</a></li>
                 <li><a href="../index.html#admin">Admin</a></li>
             </ul>
@@ -28,7 +60,7 @@
             <h2>Herb Encyclopedia</h2>
             <p>Explore our comprehensive guide to medicinal plants. Learn about their uses, benefits, and much more.</p>
 
-            <!-- Example of a plant detail section -->
+            
             <div class="plant-detail"><br>
                 1.<b>Aloe Vera</b><br>
                 •	Scientific Name: Aloe barbadensis miller<br>
@@ -172,18 +204,79 @@
                 •	Verified by AYUSH: Yes, Musta is recognized for its digestive and anti-inflammatory benefits.<br>
 
 
-
-                <!-- <h3>Plant Name</h3>
-                <img src="images/plant-example.jpg" alt="Plant Example">
-                <p><strong>Scientific Name:</strong> Example Scientific Name</p>
-                <p><strong>Uses:</strong> Description of the plant's uses in herbal medicine.</p>
-                <p><strong>Benefits:</strong> Information about the health benefits.</p> -->
             </div>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2024 Virtual Herbal Garden. All rights reserved.</p>
-    </footer>
-</body>
+    </footer> -->
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="../images/logo.png" alt="Logo" width="80">
+                </div>
+                <ul>
+                    <li><a href="../index.html#home">Home</a></li>
+                    <li><a href="../index.html#garden">Virtual Garden</a></li>
+                    <li><a href="../learning.html">Learning</a></li>
+                    <li><a href="../index.html#about">About AYUSH</a></li>
+                    <li><a href="../index.html#admin">Admin</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="herb-encyclopedia">
+            <div class="content">
+                <h2>🌿 Herb Encyclopedia</h2>
+                <p>Explore our guide to medicinal plants, their uses, and benefits.</p>
+    
+                <div class="plant-detail">
+                    <h3>1. Aloe Vera <i class="fas fa-leaf"></i></h3>
+                    <p><strong>Scientific Name:</strong> Aloe barbadensis miller</p>
+                    <p><strong>Description:</strong> Aloe Vera is a succulent plant with gel-filled leaves, widely used for skin healing and digestion.</p>
+                    <p><strong>Uses:</strong></p>
+                    <ul>
+                        <li>Applied topically for burns and skin conditions.</li>
+                        <li>Consumed to aid digestion and gut health.</li>
+                    </ul>
+                    <p><strong>Verified by AYUSH:</strong> ✅ Yes</p>
+                </div>
+    
+                <div class="plant-detail">
+                    <h3>2. Amla (Indian Gooseberry) <i class="fas fa-apple-alt"></i></h3>
+                    <p><strong>Scientific Name:</strong> Phyllanthus emblica</p>
+                    <p><strong>Description:</strong> Amla is rich in Vitamin C and is a powerful rejuvenator in Ayurveda.</p>
+                    <p><strong>Uses:</strong></p>
+                    <ul>
+                        <li>Boosts immunity and skin health.</li>
+                        <li>Aids digestion and regulates cholesterol.</li>
+                    </ul>
+                    <p><strong>Verified by AYUSH:</strong> ✅ Yes</p>
+                </div>
+    
+                <div class="plant-detail">
+                    <h3>3. Ashwagandha <i class="fas fa-seedling"></i></h3>
+                    <p><strong>Scientific Name:</strong> Withania somnifera</p>
+                    <p><strong>Description:</strong> An adaptogenic herb used for stress relief and energy enhancement.</p>
+                    <p><strong>Uses:</strong></p>
+                    <ul>
+                        <li>Reduces anxiety and stress.</li>
+                        <li>Improves stamina and strength.</li>
+                    </ul>
+                    <p><strong>Verified by AYUSH:</strong> ✅ Yes</p>
+                </div>
+    
+            </div>
+        </section>
+    
+        <footer class="footer">
+            <p>&copy; 2024 Virtual Herbal Garden. All rights reserved.</p>
+        </footer>
+    </body>
+
+
+
 </html>
