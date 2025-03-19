@@ -346,16 +346,7 @@ nav ul li a:hover::after {
 }
 
 /* Header */
-/* Header */
-#header-section {
-    background: #4CAF50;
-    color: white;
-    padding: 15px 0;
-    font-size: 24px;
-    text-align: center;
-}
-
-/* Container for Both Sections */
+/* 🔹 General Styling */
 .image-search {
     display: flex;
     justify-content: space-around;
@@ -363,16 +354,16 @@ nav ul li a:hover::after {
     margin: 50px auto;
     width: 80%;
     max-width: 1000px;
-    height: 420px; /* Adjusted height for better structure */
+    height: auto;
     padding: 10px;
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* 3D Animated Card Effect */
+/* 🔹 Card Styling */
 .card {
-    flex: 1;  /* Makes both sections take equal width */
+    flex: 1;  
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     perspective: 1000px;
     padding: 20px;
@@ -383,7 +374,7 @@ nav ul li a:hover::after {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Upload Section */
+/* 🔹 Upload Button */
 .upload-container {
     display: flex;
     flex-direction: column;
@@ -416,17 +407,19 @@ nav ul li a:hover::after {
     transform: scale(1.05);
 }
 
-/* Plant Name Display */
-#plant-identification-section h3 {
-    font-size: 20px;
-    margin-top: 10px;
-    color: #333;
+/* 🔹 Plant Details */
+#plantDetails {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Plant Image Result */
+/* 🔹 Plant Image */
 #search-image-section .plant-image-container {
     text-align: center;
-    margin-top: 30px; /* Adjusted for better alignment */
+    margin-top: 30px;
 }
 
 #search-image-section .plant-image {
@@ -436,7 +429,29 @@ nav ul li a:hover::after {
     margin-top: 10px;
 }
 
-/* Responsive Design */
+/* 🔹 Loading Spinner */
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #4CAF50;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 🔹 Responsive Design */
 @media screen and (max-width: 768px) {
     .image-search {
         flex-direction: column;
