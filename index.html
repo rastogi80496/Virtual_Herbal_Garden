@@ -30,7 +30,7 @@
     <section id="home" class="hero">
         <video autoplay muted loop class="hero-video">
             <source src="images/bgvideo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+            
         </video>
         <div class="hero-content">
             <h1>Welcome to the Virtual Herbal Garden</h1>
@@ -161,106 +161,152 @@
         </section>
 
 
-<!-- Guided Virtual Tours Section -->
-<section id="guided-tours">
-    <h2>Guided Virtual Tours</h2>
-    <div class="tour-container">
-        <div class="tour-card">
-            <img src="images/digestive-health-image.jpg" alt="Plants for Digestive Health" class="tour-image">
-            <div class="tour-content">
-                <h3><a href="guided-tour\digestive-health.html">Plants for Digestive Health</a></h3>
-                <p>Explore the herbs and plants that support digestive health.</p>
-            </div>
+
+        <!-- Search Plant by Image -->
+        <div class="image-search">
+            <!-- Plant Identification Section -->
+            <section id="plant-identification-section" class="card">
+                <h2>Identify a Plant</h2>
+                <p>Upload an image to identify the plant.</p>
+
+                <div class="upload-container">
+                    <input type="file" id="plantImage" accept="image/*">
+                    <button id="identifyButton" class="cta-button">Identify Plant</button>
+                </div>
+
+                <!-- Loading Animation (Hidden by Default) -->
+                <div id="loading" class="loader-container" style="display: none;">
+                    <div class="loader"></div>
+                    <p>Identifying plant...</p>
+                </div>
+
+                <!-- Plant Details (Hidden by Default) -->
+                <div id="plantDetails" style="display: none;">
+                    <h3>Plant Name: <span id="plantName">-</span></h3>
+                    <p id="plantFamilyContainer" style="display: none;"><strong>Family:</strong> <span id="plantFamily">-</span></p>
+                    <p id="plantGenusContainer" style="display: none;"><strong>Genus:</strong> <span id="plantGenus">-</span></p>
+                    <p id="plantSpeciesContainer" style="display: none;"><strong>Species:</strong> <span id="plantSpecies">-</span></p>
+                    <p id="plantEdibilityContainer" style="display: none;"><strong>Edibility:</strong> <span id="plantEdibility">-</span></p>
+                    <p id="plantMedicinalContainer" style="display: none;"><strong>Medicinal Uses:</strong> <span id="plantMedicinal">-</span></p>
+                    <p id="wikiLinkContainer" style="display: none;"><strong>More Info:</strong> <a id="wikiLink" href="#" target="_blank">-</a></p>
+                </div>
+            </section>
+
+            <!-- Search Image Section -->
+            <section id="search-image-section" class="card">
+                <h2>Search Image</h2>
+                <div id="imageResult" class="plant-image-container">
+                    <p>No image found yet.</p>
+                </div>
+            </section>
         </div>
-        <div class="tour-card">
-            <img src="images/immunity-image.jpeg" alt="Plants for Immunity" class="tour-image">
-            <div class="tour-content">
-                <h3><a href="guided-tour/immunity.html">Plants for Immunity</a></h3>
-                <p>Discover the plants that boost and strengthen your immune system.</p>
+
+
+        
+
+
+
+
+        <!-- Guided Virtual Tours Section -->
+        <section id="guided-tours">
+            <h2>Guided Virtual Tours</h2>
+            <div class="tour-container">
+                <div class="tour-card">
+                    <img src="images/digestive-health-image.jpg" alt="Plants for Digestive Health" class="tour-image">
+                    <div class="tour-content">
+                        <h3><a href="guided-tour\digestive-health.html">Plants for Digestive Health</a></h3>
+                        <p>Explore the herbs and plants that support digestive health.</p>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <img src="images/immunity-image.jpeg" alt="Plants for Immunity" class="tour-image">
+                    <div class="tour-content">
+                        <h3><a href="guided-tour/immunity.html">Plants for Immunity</a></h3>
+                        <p>Discover the plants that boost and strengthen your immune system.</p>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <img src="images/skin-care-image.jpg" alt="Plants for Skin Care" class="tour-image">
+                    <div class="tour-content">
+                        <h3><a href="guided-tour/skin-care.html">Plants for Skin Care</a></h3>
+                        <p>Find out which plants can help maintain healthy and radiant skin.</p>
+                    </div>
+                </div>
+                <!-- Add more tours as needed -->
             </div>
-        </div>
-        <div class="tour-card">
-            <img src="images/skin-care-image.jpg" alt="Plants for Skin Care" class="tour-image">
-            <div class="tour-content">
-                <h3><a href="guided-tour/skin-care.html">Plants for Skin Care</a></h3>
-                <p>Find out which plants can help maintain healthy and radiant skin.</p>
-            </div>
-        </div>
-        <!-- Add more tours as needed -->
-    </div>
-</section>
+        </section>
 
        
 
-    <section id="about" class="section about-ayush">
-        <h2>About AYUSH</h2>
-        <a href="#ayurveda" class="view-more">Ayurveda</a>
-        <a href="#yoga" class="view-more">Yoga</a>
-        <a href="#naturopathy" class="view-more">Naturopathy</a>
-        <a href="#unani" class="view-more">Unani</a>
-        <a href="#siddha" class="view-more">Siddha</a>
-        <a href="#homeopathy" class="view-more">Homeopathy</a>
+        <section id="about" class="section about-ayush">
+                <h2>About AYUSH</h2>
+                <a href="#ayurveda" class="view-more">Ayurveda</a>
+                <a href="#yoga" class="view-more">Yoga</a>
+                <a href="#naturopathy" class="view-more">Naturopathy</a>
+                <a href="#unani" class="view-more">Unani</a>
+                <a href="#siddha" class="view-more">Siddha</a>
+                <a href="#homeopathy" class="view-more">Homeopathy</a>
 
-            <!-- More links if necessary -->
+                <!-- More links if necessary -->
 
-            <div class="detailed-info" id="ayurveda">
-                <h3>Ayurveda</h3>
-                <img src="images/ayurveda.jpg" alt="Ayurveda" class="system-image">
-                <p>Ayurveda is the time tested traditional system of medicine of India. </p>
-                <p>The term 'Ayurveda' meaning 'the knowledge of life' comprises of two Sanskrit words viz 'Ayu' meaning 'Life'</p> 
-                <p>and 'Veda' meaning 'Knowledge' or 'Science'.</p>
-                <a href="#about" class="back-link">Back to About AYUSH</a>
-            </div>
-            <div class="detailed-info" id="yoga">
-                <h3>Yoga</h3>
-                <img src="images/yoga.jpeg" alt="Yoga" class="system-image">
-                <p>The word 'Yoga' comes from the Sanskrit word 'yuj' which means 'to unite or integrate'.</p>
-                <p>Yoga is about the union of a person's own consciousness and the universal consciousness.</p>
-                <a href="#about" class="back-link">Back to About AYUSH</a>
-            </div>
+                <div class="detailed-info" id="ayurveda">
+                    <h3>Ayurveda</h3>
+                    <img src="images/ayurveda.jpg" alt="Ayurveda" class="system-image">
+                    <p>Ayurveda is the time tested traditional system of medicine of India. </p>
+                    <p>The term 'Ayurveda' meaning 'the knowledge of life' comprises of two Sanskrit words viz 'Ayu' meaning 'Life'</p> 
+                    <p>and 'Veda' meaning 'Knowledge' or 'Science'.</p>
+                    <a href="#about" class="back-link">Back to About AYUSH</a>
+                </div>
+                <div class="detailed-info" id="yoga">
+                    <h3>Yoga</h3>
+                    <img src="images/yoga.jpeg" alt="Yoga" class="system-image">
+                    <p>The word 'Yoga' comes from the Sanskrit word 'yuj' which means 'to unite or integrate'.</p>
+                    <p>Yoga is about the union of a person's own consciousness and the universal consciousness.</p>
+                    <a href="#about" class="back-link">Back to About AYUSH</a>
+                </div>
 
-            <div class="detailed-info" id="naturopathy">
-                <h3>Naturopathy</h3>
-                <img src="images/naturopathy.jpg" alt="naturopathy" class="system-image">
-                <p>Naturopathy is a cost effective drugless, non-invasive therapy involving the use of natural materials</p>
-                <p>for health care and healthy living.</p>
-                <a href="#about" class="back-link">Back to About AYUSH</a>
-            </div>
-            <div class="detailed-info" id="unani">
-                <h3>unani</h3>
-                <img src="images/unani.jpg" alt="unani" class="system-image">
-                <p>Unani System of medicine is a comprehensive medical system, which provides preventive, promotive, curative and rehabilitative health care.</p>
-                <p>The system is holistic in nature and takes into account the whole personality of an individual rather than</p>
-                <p>taking a reductionist approach towards disease.</p>
-                <a href="#about" class="back-link">Back to About AYUSH</a>
-            </div>
-            <div class="detailed-info" id="siddha">
-                <h3>Siddha</h3>
-                <img src="images/siddha.jpg" alt="siddha" class="system-image">
-                <p>The Siddha system is an ancient system of medicine in India.</p>
-                <p>The word 'Siddha' is derived from the root word "Citti" meaning attainment</p>
-                <p>of perfection, eternal bliss and accomplishment.</p>
-                <a href="#about" class="back-link">Back to About AYUSH</a>
-            </div>
-            <div class="detailed-info" id="homeopathy">
-                <h3>homeopathy</h3>
-                <img src="images/homeopathy.jpg" alt="homeopathy" class="system-image">
-                <p>'Homoeopathy' was introduced as a scientific system of drug therapeutics by a German Physician,</p>
-                <p>Dr. Christian Frederick Samuel Hahnemann in 1805.</p>
-                <p>The principle of Homoeopathy is Similia Similibus Curentur i.e. let likes be treated by likes.</p>
-                <a href="#about" class="back-link">Back to About AYUSH</a>
-            </div>
+                <div class="detailed-info" id="naturopathy">
+                    <h3>Naturopathy</h3>
+                    <img src="images/naturopathy.jpg" alt="naturopathy" class="system-image">
+                    <p>Naturopathy is a cost effective drugless, non-invasive therapy involving the use of natural materials</p>
+                    <p>for health care and healthy living.</p>
+                    <a href="#about" class="back-link">Back to About AYUSH</a>
+                </div>
+                <div class="detailed-info" id="unani">
+                    <h3>unani</h3>
+                    <img src="images/unani.jpg" alt="unani" class="system-image">
+                    <p>Unani System of medicine is a comprehensive medical system, which provides preventive, promotive, curative and rehabilitative health care.</p>
+                    <p>The system is holistic in nature and takes into account the whole personality of an individual rather than</p>
+                    <p>taking a reductionist approach towards disease.</p>
+                    <a href="#about" class="back-link">Back to About AYUSH</a>
+                </div>
+                <div class="detailed-info" id="siddha">
+                    <h3>Siddha</h3>
+                    <img src="images/siddha.jpg" alt="siddha" class="system-image">
+                    <p>The Siddha system is an ancient system of medicine in India.</p>
+                    <p>The word 'Siddha' is derived from the root word "Citti" meaning attainment</p>
+                    <p>of perfection, eternal bliss and accomplishment.</p>
+                    <a href="#about" class="back-link">Back to About AYUSH</a>
+                </div>
+                <div class="detailed-info" id="homeopathy">
+                    <h3>homeopathy</h3>
+                    <img src="images/homeopathy.jpg" alt="homeopathy" class="system-image">
+                    <p>'Homoeopathy' was introduced as a scientific system of drug therapeutics by a German Physician,</p>
+                    <p>Dr. Christian Frederick Samuel Hahnemann in 1805.</p>
+                    <p>The principle of Homoeopathy is Similia Similibus Curentur i.e. let likes be treated by likes.</p>
+                    <a href="#about" class="back-link">Back to About AYUSH</a>
+                </div>
 
-                        
-            <!-- Additional AYUSH sections here -->
-        </section>
+                            
+                <!-- Additional AYUSH sections here -->
+            </section>
 
         
     </main>
 
 
     <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
-<script src="https://mediafiles.botpress.cloud/d40da81c-2bd3-4e1a-a4df-692e25d4109f/webchat/v2.1/config.js"></script>
+    <script src="https://mediafiles.botpress.cloud/d40da81c-2bd3-4e1a-a4df-692e25d4109f/webchat/v2.1/config.js"></script>
 
     <!-- Bot Icon -->
     <!-- <div id="bot-icon">
@@ -282,6 +328,7 @@
     </footer>
     <script src="js/search-filter.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/searchImage.js"></script>
 
 
 </body>

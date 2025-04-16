@@ -345,6 +345,129 @@ nav ul li a:hover::after {
     right: 0;
 }
 
+/* Header */
+/* 🔹 General Styling */
+.image-search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Card Styling */
+.card {
+    flex: 1;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    perspective: 1000px;
+    padding: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔹 Upload Button */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.upload-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+    text-align: center;
+}
+
+.upload-container .cta-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.upload-container .cta-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* 🔹 Plant Details */
+#plantDetails {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Plant Image */
+#search-image-section .plant-image-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#search-image-section .plant-image {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+}
+
+/* 🔹 Loading Spinner */
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #4CAF50;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 🔹 Responsive Design */
+@media screen and (max-width: 768px) {
+    .image-search {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        width: 90%;
+    }
+
+    #plant-identification-section, #search-image-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
 /* Detailed Sections */
 .detailed-info {
     display: none; /* Hide all detailed sections by default */
