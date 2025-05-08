@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f8f2;
+    scroll-behavior: smooth; 
+}
+
+header {
+    background: linear-gradient(135deg, #2c7a7b, #68d391);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    animation: slideIn 0.5s ease-out;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+nav ul li a::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.login-button {
+    background: linear-gradient(45deg, #68d391, #2c7a7b);
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+}
+
+.login-button:hover {
+    background: linear-gradient(45deg, #2c7a7b, #68d391);
+    transform: scale(1.05);
+}
+
+#plant-models {
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #388e3c;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+.model-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.plant {
+    background-color: #ffffff;
+    border: 2px solid #2c7a7b;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+/* Enhanced Styling for Plant Titles */
+.plant h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f6633;
+    background-color: #dff0d8;
+    border-bottom: 3px solid #4CAF50;
+    padding: 8px 0;
+    border-radius: 8px 8px 0 0;
+    font-weight: 700;
+    
+}
+
+/* Improved 3D Model Style */
+.model-placeholder {
+    background: #e6ffe6;  /* Soft green background */
+    border: 2px solid #4CAF50;  /* Dashed green border for plant theme */
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    font-weight: bold;
+    color: #2c7a7b;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.model-placeholder:hover {
+    transform: scale(1.05);
+    background: #dff0d8;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.model-box {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: #f0f8ff;
+    border: 2px solid;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #2c7a7b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
